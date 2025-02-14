@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>guru.springframework</groupId>
-	<artifactId>sfg-di</artifactId>
+	<artifactId>sfgdi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sfg-di</name>
+	<name>sfgdi</name>
 	<description>Dependency Injection Example</description>
 	<url/>
 	<licenses>
@@ -39,6 +39,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>6.2.2</version>
 		</dependency>
 	</dependencies>
 
